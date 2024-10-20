@@ -1,0 +1,35 @@
+
+# Conjunto de aviones
+set AVIONES := AV1 AV2 AV3 AV4 AV5;
+
+# Precios de los billetes
+param precio_estandar := 19;
+param precio_leisure := 49;
+param precio_business := 69;
+
+# Máximo de asientos por avión
+param max_asientos :=
+    AV1 90
+    AV2 120
+    AV3 200
+    AV4 150
+    AV5 190;
+
+# Capacidad máxima por avión
+param capacidad_maxima :=
+    AV1 1700
+    AV2 2700
+    AV3 1300
+    AV4 1700
+    AV5 2000;
+
+# Capacidad del equipaje por billete
+param equipaje_estandar := 1;
+param equipaje_leisure := 20;
+param equipaje_business := 40;
+
+# Mínimo de billetes leisure+ por avión
+param min_leisure := 20;
+
+# Mínimo de billetes business+ por avión
+param min_business := 10;

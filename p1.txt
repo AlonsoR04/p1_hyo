@@ -1,0 +1,82 @@
+Problem:    p1
+Rows:       22
+Columns:    15 (15 integer, 0 binary)
+Non-zeros:  70
+Status:     INTEGER OPTIMAL
+Objective:  PROFIT = 26190 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 PROFIT                  26190                             
+     2 max_asientos_avion[AV1]
+                                  90                          90 
+     3 max_asientos_avion[AV2]
+                                 120                         120 
+     4 max_asientos_avion[AV3]
+                                 200                         200 
+     5 max_asientos_avion[AV4]
+                                 150                         150 
+     6 max_asientos_avion[AV5]
+                                 190                         190 
+     7 max_capacidad_avion[AV1]
+                                1699                        1700 
+     8 max_capacidad_avion[AV2]
+                                2698                        2700 
+     9 max_capacidad_avion[AV3]
+                                1300                        1300 
+    10 max_capacidad_avion[AV4]
+                                1700                        1700 
+    11 max_capacidad_avion[AV5]
+                                1993                        2000 
+    12 min_leisure_avion[AV1]
+                                  58            20               
+    13 min_leisure_avion[AV2]
+                                  31            20               
+    14 min_leisure_avion[AV3]
+                                  23            20               
+    15 min_leisure_avion[AV4]
+                                  20            20               
+    16 min_leisure_avion[AV5]
+                                  21            20               
+    17 min_business_avion[AV1]
+                                  13            10               
+    18 min_business_avion[AV2]
+                                  51            10               
+    19 min_business_avion[AV3]
+                                  17            10               
+    20 min_business_avion[AV4]
+                                  30            10               
+    21 min_business_avion[AV5]
+                                  36            10               
+    22 porcentaje_estandar
+                                   0            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[AV1]       *             19             0               
+     2 x[AV2]       *             38             0               
+     3 x[AV3]       *            160             0               
+     4 x[AV4]       *            100             0               
+     5 x[AV5]       *            133             0               
+     6 y[AV1]       *             58             0               
+     7 y[AV2]       *             31             0               
+     8 y[AV3]       *             23             0               
+     9 y[AV4]       *             20             0               
+    10 y[AV5]       *             21             0               
+    11 z[AV1]       *             13             0               
+    12 z[AV2]       *             51             0               
+    13 z[AV3]       *             17             0               
+    14 z[AV4]       *             30             0               
+    15 z[AV5]       *             36             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 2.84e-14 on row 22
+        max.rel.err = 7.87e-17 on row 22
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
