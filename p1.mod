@@ -42,6 +42,9 @@ param min_leisure;
 # Mínimo de billeres business+ vendidos
 param min_business;
 
+# Porcentaje de billetes estandar respecto al total
+param porcentaje_billetes_estandar;
+
 #########################################################################################################
 # FUNCIÓN OBJETIVO
 #########################################################################################################
@@ -71,7 +74,7 @@ s.t. min_business_avion{i in AVIONES}:
 
 # Porcentaje mínimo de billetes estándar con respecto al total
 s.t. porcentaje_estandar:
-    sum{i in AVIONES} x[i] >= 0.6 * sum{i in AVIONES} (x[i] + y[i] + z[i]);
+    sum{i in AVIONES} x[i] >= porcentaje_billetes_estandar * sum{i in AVIONES} (x[i] + y[i] + z[i]);
 
 solve;
 

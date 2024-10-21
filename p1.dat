@@ -33,3 +33,6 @@ param min_leisure := 20;
 
 # Mínimo de billetes business+ por avión
 param min_business := 10;
+
+# Porcentaje mínimo billetes estándar respecto al total
+param porcentaje_billetes_estandar := 0.6;
