@@ -92,22 +92,32 @@ maximize BENEFICIO:
 # No se pueden vender más billetes que el número de asientos disponibles en el avión
 s.t. max_asientos_avion{i in AVIONES}:
     (x[i] + y[i] + z[i]) - max_asientos[i] <= 0;
+    # Si <= 0: implica que la suma de los distintos tipos de asientos vendidos será menor al total de asientos -> Correcto
+    # En el caso contrario: se habrán vendido más asientos que los disponibles -> Incorrecto
 
 # No se puede superar en ningún caso la capacidad máxima de cada avión.
 s.t. max_capacidad_avion{i in AVIONES}:
     (equipaje_estandar * x[i] + equipaje_leisure * y[i] + equipaje_business * z[i]) - capacidad_maxima[i] <= 0;
+    # Si <= 0: la suma de equipaje del avión será menor a su capacidad -> Correcto
+    # En el caso contrario: excedemos la capacidad de equipaje del avión -> Incorrecto
 
 # Para cada avión se deben ofertar mínimo 20 billetes leisure+
 s.t. min_leisure_avion{i in AVIONES}:
     y[i] - min_leisure >= 0;
+    # Si >= 0: el número de billetes leisure será como minimo 20 -> Correcto
+    # En el caso contrario: no cumplimos el minimo de billetes leisure(20) -> Incorrecto
 
 # Para cada avión se deben ofertar mínimo 10 billetes business+
 s.t. min_business_avion{i in AVIONES}:
     z[i] - min_business >= 0;
+    # Si >= 0: el número de billetes business será como minimo 10 -> Correcto
+    # En el caso contrario: no cumplimos el minimo de billetes business(10) -> Incorrecto
 
 # El número de billetes estándar total debe ser al menos un 60% de todos los billetes que se ofertan
 s.t. porcentaje_estandar:
     (sum{i in AVIONES} x[i]) - (porcentaje_billetes_estandar * sum{i in AVIONES} (x[i] + y[i] + z[i])) >= 0;
+    # Si >= 0: el numero de billetes estandar será como poco el 60% del total -> Correcto
+    # En el caso contrario: el numero de billetes estandar será inferior al 60% del total -> Incorrecto
 
 ################################################# PARTE 2 #################################################
 
