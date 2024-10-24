@@ -17,7 +17,6 @@ set SLOTS_CONSECUTIVOS;
 
 ################################################# PARTE 1 #################################################
 
-
 # Devuelve el número de billetes de cada tipo para cada avión
 # Billetes estandar
 var x{AVIONES} integer, >= 0;
