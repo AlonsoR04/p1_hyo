@@ -1,0 +1,1083 @@
+Problem:    p2
+Rows:       410
+Columns:    120 (120 integer, 120 binary)
+Non-zeros:  904
+Status:     INTEGER OPTIMAL
+Objective:  COSTES = 4500 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 COSTES                   4500                             
+     2 un_solo_slot_por_avion[AV1]
+                                   1             1             = 
+     3 un_solo_slot_por_avion[AV2]
+                                   1             1             = 
+     4 un_solo_slot_por_avion[AV3]
+                                   1             1             = 
+     5 un_solo_slot_por_avion[AV4]
+                                   1             1             = 
+     6 un_solo_slot_por_avion[AV5]
+                                   1             1             = 
+     7 un_solo_avion_por_slot[P1,S1]
+                                   0                           1 
+     8 un_solo_avion_por_slot[P1,S2]
+                                   0                           1 
+     9 un_solo_avion_por_slot[P1,S3]
+                                   0                           1 
+    10 un_solo_avion_por_slot[P1,S4]
+                                   0                           1 
+    11 un_solo_avion_por_slot[P1,S5]
+                                   1                           1 
+    12 un_solo_avion_por_slot[P1,S6]
+                                   0                           1 
+    13 un_solo_avion_por_slot[P2,S1]
+                                   0                           1 
+    14 un_solo_avion_por_slot[P2,S2]
+                                   0                           1 
+    15 un_solo_avion_por_slot[P2,S3]
+                                   0                           1 
+    16 un_solo_avion_por_slot[P2,S4]
+                                   1                           1 
+    17 un_solo_avion_por_slot[P2,S5]
+                                   0                           1 
+    18 un_solo_avion_por_slot[P2,S6]
+                                   0                           1 
+    19 un_solo_avion_por_slot[P3,S1]
+                                   0                           1 
+    20 un_solo_avion_por_slot[P3,S2]
+                                   1                           1 
+    21 un_solo_avion_por_slot[P3,S3]
+                                   0                           1 
+    22 un_solo_avion_por_slot[P3,S4]
+                                   0                           1 
+    23 un_solo_avion_por_slot[P3,S5]
+                                   0                           1 
+    24 un_solo_avion_por_slot[P3,S6]
+                                   0                           1 
+    25 un_solo_avion_por_slot[P4,S1]
+                                   1                           1 
+    26 un_solo_avion_por_slot[P4,S2]
+                                   0                           1 
+    27 un_solo_avion_por_slot[P4,S3]
+                                   0                           1 
+    28 un_solo_avion_por_slot[P4,S4]
+                                   0                           1 
+    29 un_solo_avion_por_slot[P4,S5]
+                                   0                           1 
+    30 un_solo_avion_por_slot[P4,S6]
+                                   1                           1 
+    31 solo_un_slot_valido[AV1,P1,S1]
+                                   0                          -0 
+    32 solo_un_slot_valido[AV1,P1,S2]
+                                   0                          -0 
+    33 solo_un_slot_valido[AV1,P1,S3]
+                                   0                          -0 
+    34 solo_un_slot_valido[AV1,P1,S4]
+                                   0                          -0 
+    35 solo_un_slot_valido[AV1,P1,S5]
+                                   0                           1 
+    36 solo_un_slot_valido[AV1,P1,S6]
+                                   0                           1 
+    37 solo_un_slot_valido[AV1,P2,S1]
+                                   0                          -0 
+    38 solo_un_slot_valido[AV1,P2,S2]
+                                   0                          -0 
+    39 solo_un_slot_valido[AV1,P2,S3]
+                                   0                           1 
+    40 solo_un_slot_valido[AV1,P2,S4]
+                                   0                           1 
+    41 solo_un_slot_valido[AV1,P2,S5]
+                                   0                          -0 
+    42 solo_un_slot_valido[AV1,P2,S6]
+                                   0                          -0 
+    43 solo_un_slot_valido[AV1,P3,S1]
+                                   0                           1 
+    44 solo_un_slot_valido[AV1,P3,S2]
+                                   1                           1 
+    45 solo_un_slot_valido[AV1,P3,S3]
+                                   0                           1 
+    46 solo_un_slot_valido[AV1,P3,S4]
+                                   0                          -0 
+    47 solo_un_slot_valido[AV1,P3,S5]
+                                   0                          -0 
+    48 solo_un_slot_valido[AV1,P3,S6]
+                                   0                           1 
+    49 solo_un_slot_valido[AV1,P4,S1]
+                                   0                           1 
+    50 solo_un_slot_valido[AV1,P4,S2]
+                                   0                          -0 
+    51 solo_un_slot_valido[AV1,P4,S3]
+                                   0                          -0 
+    52 solo_un_slot_valido[AV1,P4,S4]
+                                   0                          -0 
+    53 solo_un_slot_valido[AV1,P4,S5]
+                                   0                           1 
+    54 solo_un_slot_valido[AV1,P4,S6]
+                                   0                           1 
+    55 solo_un_slot_valido[AV2,P1,S1]
+                                   0                          -0 
+    56 solo_un_slot_valido[AV2,P1,S2]
+                                   0                          -0 
+    57 solo_un_slot_valido[AV2,P1,S3]
+                                   0                          -0 
+    58 solo_un_slot_valido[AV2,P1,S4]
+                                   0                          -0 
+    59 solo_un_slot_valido[AV2,P1,S5]
+                                   0                           1 
+    60 solo_un_slot_valido[AV2,P1,S6]
+                                   0                           1 
+    61 solo_un_slot_valido[AV2,P2,S1]
+                                   0                          -0 
+    62 solo_un_slot_valido[AV2,P2,S2]
+                                   0                          -0 
+    63 solo_un_slot_valido[AV2,P2,S3]
+                                   0                           1 
+    64 solo_un_slot_valido[AV2,P2,S4]
+                                   0                           1 
+    65 solo_un_slot_valido[AV2,P2,S5]
+                                   0                          -0 
+    66 solo_un_slot_valido[AV2,P2,S6]
+                                   0                          -0 
+    67 solo_un_slot_valido[AV2,P3,S1]
+                                   0                           1 
+    68 solo_un_slot_valido[AV2,P3,S2]
+                                   0                           1 
+    69 solo_un_slot_valido[AV2,P3,S3]
+                                   0                           1 
+    70 solo_un_slot_valido[AV2,P3,S4]
+                                   0                          -0 
+    71 solo_un_slot_valido[AV2,P3,S5]
+                                   0                          -0 
+    72 solo_un_slot_valido[AV2,P3,S6]
+                                   0                           1 
+    73 solo_un_slot_valido[AV2,P4,S1]
+                                   1                           1 
+    74 solo_un_slot_valido[AV2,P4,S2]
+                                   0                          -0 
+    75 solo_un_slot_valido[AV2,P4,S3]
+                                   0                          -0 
+    76 solo_un_slot_valido[AV2,P4,S4]
+                                   0                          -0 
+    77 solo_un_slot_valido[AV2,P4,S5]
+                                   0                           1 
+    78 solo_un_slot_valido[AV2,P4,S6]
+                                   0                           1 
+    79 solo_un_slot_valido[AV3,P1,S1]
+                                   0                          -0 
+    80 solo_un_slot_valido[AV3,P1,S2]
+                                   0                          -0 
+    81 solo_un_slot_valido[AV3,P1,S3]
+                                   0                          -0 
+    82 solo_un_slot_valido[AV3,P1,S4]
+                                   0                          -0 
+    83 solo_un_slot_valido[AV3,P1,S5]
+                                   0                           1 
+    84 solo_un_slot_valido[AV3,P1,S6]
+                                   0                           1 
+    85 solo_un_slot_valido[AV3,P2,S1]
+                                   0                          -0 
+    86 solo_un_slot_valido[AV3,P2,S2]
+                                   0                          -0 
+    87 solo_un_slot_valido[AV3,P2,S3]
+                                   0                           1 
+    88 solo_un_slot_valido[AV3,P2,S4]
+                                   1                           1 
+    89 solo_un_slot_valido[AV3,P2,S5]
+                                   0                          -0 
+    90 solo_un_slot_valido[AV3,P2,S6]
+                                   0                          -0 
+    91 solo_un_slot_valido[AV3,P3,S1]
+                                   0                           1 
+    92 solo_un_slot_valido[AV3,P3,S2]
+                                   0                           1 
+    93 solo_un_slot_valido[AV3,P3,S3]
+                                   0                           1 
+    94 solo_un_slot_valido[AV3,P3,S4]
+                                   0                          -0 
+    95 solo_un_slot_valido[AV3,P3,S5]
+                                   0                          -0 
+    96 solo_un_slot_valido[AV3,P3,S6]
+                                   0                           1 
+    97 solo_un_slot_valido[AV3,P4,S1]
+                                   0                           1 
+    98 solo_un_slot_valido[AV3,P4,S2]
+                                   0                          -0 
+    99 solo_un_slot_valido[AV3,P4,S3]
+                                   0                          -0 
+   100 solo_un_slot_valido[AV3,P4,S4]
+                                   0                          -0 
+   101 solo_un_slot_valido[AV3,P4,S5]
+                                   0                           1 
+   102 solo_un_slot_valido[AV3,P4,S6]
+                                   0                           1 
+   103 solo_un_slot_valido[AV4,P1,S1]
+                                   0                          -0 
+   104 solo_un_slot_valido[AV4,P1,S2]
+                                   0                          -0 
+   105 solo_un_slot_valido[AV4,P1,S3]
+                                   0                          -0 
+   106 solo_un_slot_valido[AV4,P1,S4]
+                                   0                          -0 
+   107 solo_un_slot_valido[AV4,P1,S5]
+                                   1                           1 
+   108 solo_un_slot_valido[AV4,P1,S6]
+                                   0                           1 
+   109 solo_un_slot_valido[AV4,P2,S1]
+                                   0                          -0 
+   110 solo_un_slot_valido[AV4,P2,S2]
+                                   0                          -0 
+   111 solo_un_slot_valido[AV4,P2,S3]
+                                   0                           1 
+   112 solo_un_slot_valido[AV4,P2,S4]
+                                   0                           1 
+   113 solo_un_slot_valido[AV4,P2,S5]
+                                   0                          -0 
+   114 solo_un_slot_valido[AV4,P2,S6]
+                                   0                          -0 
+   115 solo_un_slot_valido[AV4,P3,S1]
+                                   0                           1 
+   116 solo_un_slot_valido[AV4,P3,S2]
+                                   0                           1 
+   117 solo_un_slot_valido[AV4,P3,S3]
+                                   0                           1 
+   118 solo_un_slot_valido[AV4,P3,S4]
+                                   0                          -0 
+   119 solo_un_slot_valido[AV4,P3,S5]
+                                   0                          -0 
+   120 solo_un_slot_valido[AV4,P3,S6]
+                                   0                           1 
+   121 solo_un_slot_valido[AV4,P4,S1]
+                                   0                           1 
+   122 solo_un_slot_valido[AV4,P4,S2]
+                                   0                          -0 
+   123 solo_un_slot_valido[AV4,P4,S3]
+                                   0                          -0 
+   124 solo_un_slot_valido[AV4,P4,S4]
+                                   0                          -0 
+   125 solo_un_slot_valido[AV4,P4,S5]
+                                   0                           1 
+   126 solo_un_slot_valido[AV4,P4,S6]
+                                   0                           1 
+   127 solo_un_slot_valido[AV5,P1,S1]
+                                   0                          -0 
+   128 solo_un_slot_valido[AV5,P1,S2]
+                                   0                          -0 
+   129 solo_un_slot_valido[AV5,P1,S3]
+                                   0                          -0 
+   130 solo_un_slot_valido[AV5,P1,S4]
+                                   0                          -0 
+   131 solo_un_slot_valido[AV5,P1,S5]
+                                   0                           1 
+   132 solo_un_slot_valido[AV5,P1,S6]
+                                   0                           1 
+   133 solo_un_slot_valido[AV5,P2,S1]
+                                   0                          -0 
+   134 solo_un_slot_valido[AV5,P2,S2]
+                                   0                          -0 
+   135 solo_un_slot_valido[AV5,P2,S3]
+                                   0                           1 
+   136 solo_un_slot_valido[AV5,P2,S4]
+                                   0                           1 
+   137 solo_un_slot_valido[AV5,P2,S5]
+                                   0                          -0 
+   138 solo_un_slot_valido[AV5,P2,S6]
+                                   0                          -0 
+   139 solo_un_slot_valido[AV5,P3,S1]
+                                   0                           1 
+   140 solo_un_slot_valido[AV5,P3,S2]
+                                   0                           1 
+   141 solo_un_slot_valido[AV5,P3,S3]
+                                   0                           1 
+   142 solo_un_slot_valido[AV5,P3,S4]
+                                   0                          -0 
+   143 solo_un_slot_valido[AV5,P3,S5]
+                                   0                          -0 
+   144 solo_un_slot_valido[AV5,P3,S6]
+                                   0                           1 
+   145 solo_un_slot_valido[AV5,P4,S1]
+                                   0                           1 
+   146 solo_un_slot_valido[AV5,P4,S2]
+                                   0                          -0 
+   147 solo_un_slot_valido[AV5,P4,S3]
+                                   0                          -0 
+   148 solo_un_slot_valido[AV5,P4,S4]
+                                   0                          -0 
+   149 solo_un_slot_valido[AV5,P4,S5]
+                                   0                           1 
+   150 solo_un_slot_valido[AV5,P4,S6]
+                                   1                           1 
+   151 inicio_slot_aterrizaje_respecto_llegada[AV1,P1,S1]
+                                   0            -0               
+   152 inicio_slot_aterrizaje_respecto_llegada[AV1,P1,S2]
+                                   0            -0               
+   153 inicio_slot_aterrizaje_respecto_llegada[AV1,P1,S3]
+                                   0            -0               
+   154 inicio_slot_aterrizaje_respecto_llegada[AV1,P1,S4]
+                                   0            -0               
+   155 inicio_slot_aterrizaje_respecto_llegada[AV1,P1,S5]
+                                   0            -0               
+   156 inicio_slot_aterrizaje_respecto_llegada[AV1,P1,S6]
+                                   0            -0               
+   157 inicio_slot_aterrizaje_respecto_llegada[AV1,P2,S1]
+                                   0            -0               
+   158 inicio_slot_aterrizaje_respecto_llegada[AV1,P2,S2]
+                                   0            -0               
+   159 inicio_slot_aterrizaje_respecto_llegada[AV1,P2,S3]
+                                   0            -0               
+   160 inicio_slot_aterrizaje_respecto_llegada[AV1,P2,S4]
+                                   0            -0               
+   161 inicio_slot_aterrizaje_respecto_llegada[AV1,P2,S5]
+                                   0            -0               
+   162 inicio_slot_aterrizaje_respecto_llegada[AV1,P2,S6]
+                                   0            -0               
+   163 inicio_slot_aterrizaje_respecto_llegada[AV1,P3,S1]
+                                   0            -0               
+   164 inicio_slot_aterrizaje_respecto_llegada[AV1,P3,S2]
+                                   5            -0               
+   165 inicio_slot_aterrizaje_respecto_llegada[AV1,P3,S3]
+                                   0            -0               
+   166 inicio_slot_aterrizaje_respecto_llegada[AV1,P3,S4]
+                                   0            -0               
+   167 inicio_slot_aterrizaje_respecto_llegada[AV1,P3,S5]
+                                   0            -0               
+   168 inicio_slot_aterrizaje_respecto_llegada[AV1,P3,S6]
+                                   0            -0               
+   169 inicio_slot_aterrizaje_respecto_llegada[AV1,P4,S1]
+                                   0            -0               
+   170 inicio_slot_aterrizaje_respecto_llegada[AV1,P4,S2]
+                                   0            -0               
+   171 inicio_slot_aterrizaje_respecto_llegada[AV1,P4,S3]
+                                   0            -0               
+   172 inicio_slot_aterrizaje_respecto_llegada[AV1,P4,S4]
+                                   0            -0               
+   173 inicio_slot_aterrizaje_respecto_llegada[AV1,P4,S5]
+                                   0            -0               
+   174 inicio_slot_aterrizaje_respecto_llegada[AV1,P4,S6]
+                                   0            -0               
+   175 inicio_slot_aterrizaje_respecto_llegada[AV2,P1,S1]
+                                   0            -0               
+   176 inicio_slot_aterrizaje_respecto_llegada[AV2,P1,S2]
+                                   0            -0               
+   177 inicio_slot_aterrizaje_respecto_llegada[AV2,P1,S3]
+                                   0            -0               
+   178 inicio_slot_aterrizaje_respecto_llegada[AV2,P1,S4]
+                                   0            -0               
+   179 inicio_slot_aterrizaje_respecto_llegada[AV2,P1,S5]
+                                   0            -0               
+   180 inicio_slot_aterrizaje_respecto_llegada[AV2,P1,S6]
+                                   0            -0               
+   181 inicio_slot_aterrizaje_respecto_llegada[AV2,P2,S1]
+                                   0            -0               
+   182 inicio_slot_aterrizaje_respecto_llegada[AV2,P2,S2]
+                                   0            -0               
+   183 inicio_slot_aterrizaje_respecto_llegada[AV2,P2,S3]
+                                   0            -0               
+   184 inicio_slot_aterrizaje_respecto_llegada[AV2,P2,S4]
+                                   0            -0               
+   185 inicio_slot_aterrizaje_respecto_llegada[AV2,P2,S5]
+                                   0            -0               
+   186 inicio_slot_aterrizaje_respecto_llegada[AV2,P2,S6]
+                                   0            -0               
+   187 inicio_slot_aterrizaje_respecto_llegada[AV2,P3,S1]
+                                   0            -0               
+   188 inicio_slot_aterrizaje_respecto_llegada[AV2,P3,S2]
+                                   0            -0               
+   189 inicio_slot_aterrizaje_respecto_llegada[AV2,P3,S3]
+                                   0            -0               
+   190 inicio_slot_aterrizaje_respecto_llegada[AV2,P3,S4]
+                                   0            -0               
+   191 inicio_slot_aterrizaje_respecto_llegada[AV2,P3,S5]
+                                   0            -0               
+   192 inicio_slot_aterrizaje_respecto_llegada[AV2,P3,S6]
+                                   0            -0               
+   193 inicio_slot_aterrizaje_respecto_llegada[AV2,P4,S1]
+                                   5            -0               
+   194 inicio_slot_aterrizaje_respecto_llegada[AV2,P4,S2]
+                                   0            -0               
+   195 inicio_slot_aterrizaje_respecto_llegada[AV2,P4,S3]
+                                   0            -0               
+   196 inicio_slot_aterrizaje_respecto_llegada[AV2,P4,S4]
+                                   0            -0               
+   197 inicio_slot_aterrizaje_respecto_llegada[AV2,P4,S5]
+                                   0            -0               
+   198 inicio_slot_aterrizaje_respecto_llegada[AV2,P4,S6]
+                                   0            -0               
+   199 inicio_slot_aterrizaje_respecto_llegada[AV3,P1,S1]
+                                   0            -0               
+   200 inicio_slot_aterrizaje_respecto_llegada[AV3,P1,S2]
+                                   0            -0               
+   201 inicio_slot_aterrizaje_respecto_llegada[AV3,P1,S3]
+                                   0            -0               
+   202 inicio_slot_aterrizaje_respecto_llegada[AV3,P1,S4]
+                                   0            -0               
+   203 inicio_slot_aterrizaje_respecto_llegada[AV3,P1,S5]
+                                   0            -0               
+   204 inicio_slot_aterrizaje_respecto_llegada[AV3,P1,S6]
+                                   0            -0               
+   205 inicio_slot_aterrizaje_respecto_llegada[AV3,P2,S1]
+                                   0            -0               
+   206 inicio_slot_aterrizaje_respecto_llegada[AV3,P2,S2]
+                                   0            -0               
+   207 inicio_slot_aterrizaje_respecto_llegada[AV3,P2,S3]
+                                   0            -0               
+   208 inicio_slot_aterrizaje_respecto_llegada[AV3,P2,S4]
+                                   5            -0               
+   209 inicio_slot_aterrizaje_respecto_llegada[AV3,P2,S5]
+                                   0            -0               
+   210 inicio_slot_aterrizaje_respecto_llegada[AV3,P2,S6]
+                                   0            -0               
+   211 inicio_slot_aterrizaje_respecto_llegada[AV3,P3,S1]
+                                   0            -0               
+   212 inicio_slot_aterrizaje_respecto_llegada[AV3,P3,S2]
+                                   0            -0               
+   213 inicio_slot_aterrizaje_respecto_llegada[AV3,P3,S3]
+                                   0            -0               
+   214 inicio_slot_aterrizaje_respecto_llegada[AV3,P3,S4]
+                                   0            -0               
+   215 inicio_slot_aterrizaje_respecto_llegada[AV3,P3,S5]
+                                   0            -0               
+   216 inicio_slot_aterrizaje_respecto_llegada[AV3,P3,S6]
+                                   0            -0               
+   217 inicio_slot_aterrizaje_respecto_llegada[AV3,P4,S1]
+                                   0            -0               
+   218 inicio_slot_aterrizaje_respecto_llegada[AV3,P4,S2]
+                                   0            -0               
+   219 inicio_slot_aterrizaje_respecto_llegada[AV3,P4,S3]
+                                   0            -0               
+   220 inicio_slot_aterrizaje_respecto_llegada[AV3,P4,S4]
+                                   0            -0               
+   221 inicio_slot_aterrizaje_respecto_llegada[AV3,P4,S5]
+                                   0            -0               
+   222 inicio_slot_aterrizaje_respecto_llegada[AV3,P4,S6]
+                                   0            -0               
+   223 inicio_slot_aterrizaje_respecto_llegada[AV4,P1,S1]
+                                   0            -0               
+   224 inicio_slot_aterrizaje_respecto_llegada[AV4,P1,S2]
+                                   0            -0               
+   225 inicio_slot_aterrizaje_respecto_llegada[AV4,P1,S3]
+                                   0            -0               
+   226 inicio_slot_aterrizaje_respecto_llegada[AV4,P1,S4]
+                                   0            -0               
+   227 inicio_slot_aterrizaje_respecto_llegada[AV4,P1,S5]
+                                   5            -0               
+   228 inicio_slot_aterrizaje_respecto_llegada[AV4,P1,S6]
+                                   0            -0               
+   229 inicio_slot_aterrizaje_respecto_llegada[AV4,P2,S1]
+                                   0            -0               
+   230 inicio_slot_aterrizaje_respecto_llegada[AV4,P2,S2]
+                                   0            -0               
+   231 inicio_slot_aterrizaje_respecto_llegada[AV4,P2,S3]
+                                   0            -0               
+   232 inicio_slot_aterrizaje_respecto_llegada[AV4,P2,S4]
+                                   0            -0               
+   233 inicio_slot_aterrizaje_respecto_llegada[AV4,P2,S5]
+                                   0            -0               
+   234 inicio_slot_aterrizaje_respecto_llegada[AV4,P2,S6]
+                                   0            -0               
+   235 inicio_slot_aterrizaje_respecto_llegada[AV4,P3,S1]
+                                   0            -0               
+   236 inicio_slot_aterrizaje_respecto_llegada[AV4,P3,S2]
+                                   0            -0               
+   237 inicio_slot_aterrizaje_respecto_llegada[AV4,P3,S3]
+                                   0            -0               
+   238 inicio_slot_aterrizaje_respecto_llegada[AV4,P3,S4]
+                                   0            -0               
+   239 inicio_slot_aterrizaje_respecto_llegada[AV4,P3,S5]
+                                   0            -0               
+   240 inicio_slot_aterrizaje_respecto_llegada[AV4,P3,S6]
+                                   0            -0               
+   241 inicio_slot_aterrizaje_respecto_llegada[AV4,P4,S1]
+                                   0            -0               
+   242 inicio_slot_aterrizaje_respecto_llegada[AV4,P4,S2]
+                                   0            -0               
+   243 inicio_slot_aterrizaje_respecto_llegada[AV4,P4,S3]
+                                   0            -0               
+   244 inicio_slot_aterrizaje_respecto_llegada[AV4,P4,S4]
+                                   0            -0               
+   245 inicio_slot_aterrizaje_respecto_llegada[AV4,P4,S5]
+                                   0            -0               
+   246 inicio_slot_aterrizaje_respecto_llegada[AV4,P4,S6]
+                                   0            -0               
+   247 inicio_slot_aterrizaje_respecto_llegada[AV5,P1,S1]
+                                   0            -0               
+   248 inicio_slot_aterrizaje_respecto_llegada[AV5,P1,S2]
+                                   0            -0               
+   249 inicio_slot_aterrizaje_respecto_llegada[AV5,P1,S3]
+                                   0            -0               
+   250 inicio_slot_aterrizaje_respecto_llegada[AV5,P1,S4]
+                                   0            -0               
+   251 inicio_slot_aterrizaje_respecto_llegada[AV5,P1,S5]
+                                   0            -0               
+   252 inicio_slot_aterrizaje_respecto_llegada[AV5,P1,S6]
+                                   0            -0               
+   253 inicio_slot_aterrizaje_respecto_llegada[AV5,P2,S1]
+                                   0            -0               
+   254 inicio_slot_aterrizaje_respecto_llegada[AV5,P2,S2]
+                                   0            -0               
+   255 inicio_slot_aterrizaje_respecto_llegada[AV5,P2,S3]
+                                   0            -0               
+   256 inicio_slot_aterrizaje_respecto_llegada[AV5,P2,S4]
+                                   0            -0               
+   257 inicio_slot_aterrizaje_respecto_llegada[AV5,P2,S5]
+                                   0            -0               
+   258 inicio_slot_aterrizaje_respecto_llegada[AV5,P2,S6]
+                                   0            -0               
+   259 inicio_slot_aterrizaje_respecto_llegada[AV5,P3,S1]
+                                   0            -0               
+   260 inicio_slot_aterrizaje_respecto_llegada[AV5,P3,S2]
+                                   0            -0               
+   261 inicio_slot_aterrizaje_respecto_llegada[AV5,P3,S3]
+                                   0            -0               
+   262 inicio_slot_aterrizaje_respecto_llegada[AV5,P3,S4]
+                                   0            -0               
+   263 inicio_slot_aterrizaje_respecto_llegada[AV5,P3,S5]
+                                   0            -0               
+   264 inicio_slot_aterrizaje_respecto_llegada[AV5,P3,S6]
+                                   0            -0               
+   265 inicio_slot_aterrizaje_respecto_llegada[AV5,P4,S1]
+                                   0            -0               
+   266 inicio_slot_aterrizaje_respecto_llegada[AV5,P4,S2]
+                                   0            -0               
+   267 inicio_slot_aterrizaje_respecto_llegada[AV5,P4,S3]
+                                   0            -0               
+   268 inicio_slot_aterrizaje_respecto_llegada[AV5,P4,S4]
+                                   0            -0               
+   269 inicio_slot_aterrizaje_respecto_llegada[AV5,P4,S5]
+                                   0            -0               
+   270 inicio_slot_aterrizaje_respecto_llegada[AV5,P4,S6]
+                                   5            -0               
+   271 inicio_slot_aterrizaje_respecto_limite[AV1,P1,S1]
+                                   0                          -0 
+   272 inicio_slot_aterrizaje_respecto_limite[AV1,P1,S2]
+                                   0                          -0 
+   273 inicio_slot_aterrizaje_respecto_limite[AV1,P1,S3]
+                                   0                          -0 
+   274 inicio_slot_aterrizaje_respecto_limite[AV1,P1,S4]
+                                   0                          -0 
+   275 inicio_slot_aterrizaje_respecto_limite[AV1,P1,S5]
+                                   0                          -0 
+   276 inicio_slot_aterrizaje_respecto_limite[AV1,P1,S6]
+                                   0                          -0 
+   277 inicio_slot_aterrizaje_respecto_limite[AV1,P2,S1]
+                                   0                          -0 
+   278 inicio_slot_aterrizaje_respecto_limite[AV1,P2,S2]
+                                   0                          -0 
+   279 inicio_slot_aterrizaje_respecto_limite[AV1,P2,S3]
+                                   0                          -0 
+   280 inicio_slot_aterrizaje_respecto_limite[AV1,P2,S4]
+                                   0                          -0 
+   281 inicio_slot_aterrizaje_respecto_limite[AV1,P2,S5]
+                                   0                          -0 
+   282 inicio_slot_aterrizaje_respecto_limite[AV1,P2,S6]
+                                   0                          -0 
+   283 inicio_slot_aterrizaje_respecto_limite[AV1,P3,S1]
+                                   0                          -0 
+   284 inicio_slot_aterrizaje_respecto_limite[AV1,P3,S2]
+                                 -60                          -0 
+   285 inicio_slot_aterrizaje_respecto_limite[AV1,P3,S3]
+                                   0                          -0 
+   286 inicio_slot_aterrizaje_respecto_limite[AV1,P3,S4]
+                                   0                          -0 
+   287 inicio_slot_aterrizaje_respecto_limite[AV1,P3,S5]
+                                   0                          -0 
+   288 inicio_slot_aterrizaje_respecto_limite[AV1,P3,S6]
+                                   0                          -0 
+   289 inicio_slot_aterrizaje_respecto_limite[AV1,P4,S1]
+                                   0                          -0 
+   290 inicio_slot_aterrizaje_respecto_limite[AV1,P4,S2]
+                                   0                          -0 
+   291 inicio_slot_aterrizaje_respecto_limite[AV1,P4,S3]
+                                   0                          -0 
+   292 inicio_slot_aterrizaje_respecto_limite[AV1,P4,S4]
+                                   0                          -0 
+   293 inicio_slot_aterrizaje_respecto_limite[AV1,P4,S5]
+                                   0                          -0 
+   294 inicio_slot_aterrizaje_respecto_limite[AV1,P4,S6]
+                                   0                          -0 
+   295 inicio_slot_aterrizaje_respecto_limite[AV2,P1,S1]
+                                   0                          -0 
+   296 inicio_slot_aterrizaje_respecto_limite[AV2,P1,S2]
+                                   0                          -0 
+   297 inicio_slot_aterrizaje_respecto_limite[AV2,P1,S3]
+                                   0                          -0 
+   298 inicio_slot_aterrizaje_respecto_limite[AV2,P1,S4]
+                                   0                          -0 
+   299 inicio_slot_aterrizaje_respecto_limite[AV2,P1,S5]
+                                   0                          -0 
+   300 inicio_slot_aterrizaje_respecto_limite[AV2,P1,S6]
+                                   0                          -0 
+   301 inicio_slot_aterrizaje_respecto_limite[AV2,P2,S1]
+                                   0                          -0 
+   302 inicio_slot_aterrizaje_respecto_limite[AV2,P2,S2]
+                                   0                          -0 
+   303 inicio_slot_aterrizaje_respecto_limite[AV2,P2,S3]
+                                   0                          -0 
+   304 inicio_slot_aterrizaje_respecto_limite[AV2,P2,S4]
+                                   0                          -0 
+   305 inicio_slot_aterrizaje_respecto_limite[AV2,P2,S5]
+                                   0                          -0 
+   306 inicio_slot_aterrizaje_respecto_limite[AV2,P2,S6]
+                                   0                          -0 
+   307 inicio_slot_aterrizaje_respecto_limite[AV2,P3,S1]
+                                   0                          -0 
+   308 inicio_slot_aterrizaje_respecto_limite[AV2,P3,S2]
+                                   0                          -0 
+   309 inicio_slot_aterrizaje_respecto_limite[AV2,P3,S3]
+                                   0                          -0 
+   310 inicio_slot_aterrizaje_respecto_limite[AV2,P3,S4]
+                                   0                          -0 
+   311 inicio_slot_aterrizaje_respecto_limite[AV2,P3,S5]
+                                   0                          -0 
+   312 inicio_slot_aterrizaje_respecto_limite[AV2,P3,S6]
+                                   0                          -0 
+   313 inicio_slot_aterrizaje_respecto_limite[AV2,P4,S1]
+                                 -30                          -0 
+   314 inicio_slot_aterrizaje_respecto_limite[AV2,P4,S2]
+                                   0                          -0 
+   315 inicio_slot_aterrizaje_respecto_limite[AV2,P4,S3]
+                                   0                          -0 
+   316 inicio_slot_aterrizaje_respecto_limite[AV2,P4,S4]
+                                   0                          -0 
+   317 inicio_slot_aterrizaje_respecto_limite[AV2,P4,S5]
+                                   0                          -0 
+   318 inicio_slot_aterrizaje_respecto_limite[AV2,P4,S6]
+                                   0                          -0 
+   319 inicio_slot_aterrizaje_respecto_limite[AV3,P1,S1]
+                                   0                          -0 
+   320 inicio_slot_aterrizaje_respecto_limite[AV3,P1,S2]
+                                   0                          -0 
+   321 inicio_slot_aterrizaje_respecto_limite[AV3,P1,S3]
+                                   0                          -0 
+   322 inicio_slot_aterrizaje_respecto_limite[AV3,P1,S4]
+                                   0                          -0 
+   323 inicio_slot_aterrizaje_respecto_limite[AV3,P1,S5]
+                                   0                          -0 
+   324 inicio_slot_aterrizaje_respecto_limite[AV3,P1,S6]
+                                   0                          -0 
+   325 inicio_slot_aterrizaje_respecto_limite[AV3,P2,S1]
+                                   0                          -0 
+   326 inicio_slot_aterrizaje_respecto_limite[AV3,P2,S2]
+                                   0                          -0 
+   327 inicio_slot_aterrizaje_respecto_limite[AV3,P2,S3]
+                                   0                          -0 
+   328 inicio_slot_aterrizaje_respecto_limite[AV3,P2,S4]
+                                 -15                          -0 
+   329 inicio_slot_aterrizaje_respecto_limite[AV3,P2,S5]
+                                   0                          -0 
+   330 inicio_slot_aterrizaje_respecto_limite[AV3,P2,S6]
+                                   0                          -0 
+   331 inicio_slot_aterrizaje_respecto_limite[AV3,P3,S1]
+                                   0                          -0 
+   332 inicio_slot_aterrizaje_respecto_limite[AV3,P3,S2]
+                                   0                          -0 
+   333 inicio_slot_aterrizaje_respecto_limite[AV3,P3,S3]
+                                   0                          -0 
+   334 inicio_slot_aterrizaje_respecto_limite[AV3,P3,S4]
+                                   0                          -0 
+   335 inicio_slot_aterrizaje_respecto_limite[AV3,P3,S5]
+                                   0                          -0 
+   336 inicio_slot_aterrizaje_respecto_limite[AV3,P3,S6]
+                                   0                          -0 
+   337 inicio_slot_aterrizaje_respecto_limite[AV3,P4,S1]
+                                   0                          -0 
+   338 inicio_slot_aterrizaje_respecto_limite[AV3,P4,S2]
+                                   0                          -0 
+   339 inicio_slot_aterrizaje_respecto_limite[AV3,P4,S3]
+                                   0                          -0 
+   340 inicio_slot_aterrizaje_respecto_limite[AV3,P4,S4]
+                                   0                          -0 
+   341 inicio_slot_aterrizaje_respecto_limite[AV3,P4,S5]
+                                   0                          -0 
+   342 inicio_slot_aterrizaje_respecto_limite[AV3,P4,S6]
+                                   0                          -0 
+   343 inicio_slot_aterrizaje_respecto_limite[AV4,P1,S1]
+                                   0                          -0 
+   344 inicio_slot_aterrizaje_respecto_limite[AV4,P1,S2]
+                                   0                          -0 
+   345 inicio_slot_aterrizaje_respecto_limite[AV4,P1,S3]
+                                   0                          -0 
+   346 inicio_slot_aterrizaje_respecto_limite[AV4,P1,S4]
+                                   0                          -0 
+   347 inicio_slot_aterrizaje_respecto_limite[AV4,P1,S5]
+                                 -15                          -0 
+   348 inicio_slot_aterrizaje_respecto_limite[AV4,P1,S6]
+                                   0                          -0 
+   349 inicio_slot_aterrizaje_respecto_limite[AV4,P2,S1]
+                                   0                          -0 
+   350 inicio_slot_aterrizaje_respecto_limite[AV4,P2,S2]
+                                   0                          -0 
+   351 inicio_slot_aterrizaje_respecto_limite[AV4,P2,S3]
+                                   0                          -0 
+   352 inicio_slot_aterrizaje_respecto_limite[AV4,P2,S4]
+                                   0                          -0 
+   353 inicio_slot_aterrizaje_respecto_limite[AV4,P2,S5]
+                                   0                          -0 
+   354 inicio_slot_aterrizaje_respecto_limite[AV4,P2,S6]
+                                   0                          -0 
+   355 inicio_slot_aterrizaje_respecto_limite[AV4,P3,S1]
+                                   0                          -0 
+   356 inicio_slot_aterrizaje_respecto_limite[AV4,P3,S2]
+                                   0                          -0 
+   357 inicio_slot_aterrizaje_respecto_limite[AV4,P3,S3]
+                                   0                          -0 
+   358 inicio_slot_aterrizaje_respecto_limite[AV4,P3,S4]
+                                   0                          -0 
+   359 inicio_slot_aterrizaje_respecto_limite[AV4,P3,S5]
+                                   0                          -0 
+   360 inicio_slot_aterrizaje_respecto_limite[AV4,P3,S6]
+                                   0                          -0 
+   361 inicio_slot_aterrizaje_respecto_limite[AV4,P4,S1]
+                                   0                          -0 
+   362 inicio_slot_aterrizaje_respecto_limite[AV4,P4,S2]
+                                   0                          -0 
+   363 inicio_slot_aterrizaje_respecto_limite[AV4,P4,S3]
+                                   0                          -0 
+   364 inicio_slot_aterrizaje_respecto_limite[AV4,P4,S4]
+                                   0                          -0 
+   365 inicio_slot_aterrizaje_respecto_limite[AV4,P4,S5]
+                                   0                          -0 
+   366 inicio_slot_aterrizaje_respecto_limite[AV4,P4,S6]
+                                   0                          -0 
+   367 inicio_slot_aterrizaje_respecto_limite[AV5,P1,S1]
+                                   0                          -0 
+   368 inicio_slot_aterrizaje_respecto_limite[AV5,P1,S2]
+                                   0                          -0 
+   369 inicio_slot_aterrizaje_respecto_limite[AV5,P1,S3]
+                                   0                          -0 
+   370 inicio_slot_aterrizaje_respecto_limite[AV5,P1,S4]
+                                   0                          -0 
+   371 inicio_slot_aterrizaje_respecto_limite[AV5,P1,S5]
+                                   0                          -0 
+   372 inicio_slot_aterrizaje_respecto_limite[AV5,P1,S6]
+                                   0                          -0 
+   373 inicio_slot_aterrizaje_respecto_limite[AV5,P2,S1]
+                                   0                          -0 
+   374 inicio_slot_aterrizaje_respecto_limite[AV5,P2,S2]
+                                   0                          -0 
+   375 inicio_slot_aterrizaje_respecto_limite[AV5,P2,S3]
+                                   0                          -0 
+   376 inicio_slot_aterrizaje_respecto_limite[AV5,P2,S4]
+                                   0                          -0 
+   377 inicio_slot_aterrizaje_respecto_limite[AV5,P2,S5]
+                                   0                          -0 
+   378 inicio_slot_aterrizaje_respecto_limite[AV5,P2,S6]
+                                   0                          -0 
+   379 inicio_slot_aterrizaje_respecto_limite[AV5,P3,S1]
+                                   0                          -0 
+   380 inicio_slot_aterrizaje_respecto_limite[AV5,P3,S2]
+                                   0                          -0 
+   381 inicio_slot_aterrizaje_respecto_limite[AV5,P3,S3]
+                                   0                          -0 
+   382 inicio_slot_aterrizaje_respecto_limite[AV5,P3,S4]
+                                   0                          -0 
+   383 inicio_slot_aterrizaje_respecto_limite[AV5,P3,S5]
+                                   0                          -0 
+   384 inicio_slot_aterrizaje_respecto_limite[AV5,P3,S6]
+                                   0                          -0 
+   385 inicio_slot_aterrizaje_respecto_limite[AV5,P4,S1]
+                                   0                          -0 
+   386 inicio_slot_aterrizaje_respecto_limite[AV5,P4,S2]
+                                   0                          -0 
+   387 inicio_slot_aterrizaje_respecto_limite[AV5,P4,S3]
+                                   0                          -0 
+   388 inicio_slot_aterrizaje_respecto_limite[AV5,P4,S4]
+                                   0                          -0 
+   389 inicio_slot_aterrizaje_respecto_limite[AV5,P4,S5]
+                                   0                          -0 
+   390 inicio_slot_aterrizaje_respecto_limite[AV5,P4,S6]
+                                 -15                          -0 
+   391 slots_consecutivos_misma_pista[P1,C1]
+                                   0                           1 
+   392 slots_consecutivos_misma_pista[P1,C2]
+                                   0                           1 
+   393 slots_consecutivos_misma_pista[P1,C3]
+                                   0                           1 
+   394 slots_consecutivos_misma_pista[P1,C4]
+                                   1                           1 
+   395 slots_consecutivos_misma_pista[P1,C5]
+                                   1                           1 
+   396 slots_consecutivos_misma_pista[P2,C1]
+                                   0                           1 
+   397 slots_consecutivos_misma_pista[P2,C2]
+                                   0                           1 
+   398 slots_consecutivos_misma_pista[P2,C3]
+                                   1                           1 
+   399 slots_consecutivos_misma_pista[P2,C4]
+                                   1                           1 
+   400 slots_consecutivos_misma_pista[P2,C5]
+                                   0                           1 
+   401 slots_consecutivos_misma_pista[P3,C1]
+                                   1                           1 
+   402 slots_consecutivos_misma_pista[P3,C2]
+                                   1                           1 
+   403 slots_consecutivos_misma_pista[P3,C3]
+                                   0                           1 
+   404 slots_consecutivos_misma_pista[P3,C4]
+                                   0                           1 
+   405 slots_consecutivos_misma_pista[P3,C5]
+                                   0                           1 
+   406 slots_consecutivos_misma_pista[P4,C1]
+                                   1                           1 
+   407 slots_consecutivos_misma_pista[P4,C2]
+                                   0                           1 
+   408 slots_consecutivos_misma_pista[P4,C3]
+                                   0                           1 
+   409 slots_consecutivos_misma_pista[P4,C4]
+                                   0                           1 
+   410 slots_consecutivos_misma_pista[P4,C5]
+                                   1                           1 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 asignar_avion_slot_pista[AV1,P1,S1]
+                    *              0             0             1 
+     2 asignar_avion_slot_pista[AV1,P1,S2]
+                    *              0             0             1 
+     3 asignar_avion_slot_pista[AV1,P1,S3]
+                    *              0             0             1 
+     4 asignar_avion_slot_pista[AV1,P1,S4]
+                    *              0             0             1 
+     5 asignar_avion_slot_pista[AV1,P1,S5]
+                    *              0             0             1 
+     6 asignar_avion_slot_pista[AV1,P1,S6]
+                    *              0             0             1 
+     7 asignar_avion_slot_pista[AV1,P2,S1]
+                    *              0             0             1 
+     8 asignar_avion_slot_pista[AV1,P2,S2]
+                    *              0             0             1 
+     9 asignar_avion_slot_pista[AV1,P2,S3]
+                    *              0             0             1 
+    10 asignar_avion_slot_pista[AV1,P2,S4]
+                    *              0             0             1 
+    11 asignar_avion_slot_pista[AV1,P2,S5]
+                    *              0             0             1 
+    12 asignar_avion_slot_pista[AV1,P2,S6]
+                    *              0             0             1 
+    13 asignar_avion_slot_pista[AV1,P3,S1]
+                    *              0             0             1 
+    14 asignar_avion_slot_pista[AV1,P3,S2]
+                    *              1             0             1 
+    15 asignar_avion_slot_pista[AV1,P3,S3]
+                    *              0             0             1 
+    16 asignar_avion_slot_pista[AV1,P3,S4]
+                    *              0             0             1 
+    17 asignar_avion_slot_pista[AV1,P3,S5]
+                    *              0             0             1 
+    18 asignar_avion_slot_pista[AV1,P3,S6]
+                    *              0             0             1 
+    19 asignar_avion_slot_pista[AV1,P4,S1]
+                    *              0             0             1 
+    20 asignar_avion_slot_pista[AV1,P4,S2]
+                    *              0             0             1 
+    21 asignar_avion_slot_pista[AV1,P4,S3]
+                    *              0             0             1 
+    22 asignar_avion_slot_pista[AV1,P4,S4]
+                    *              0             0             1 
+    23 asignar_avion_slot_pista[AV1,P4,S5]
+                    *              0             0             1 
+    24 asignar_avion_slot_pista[AV1,P4,S6]
+                    *              0             0             1 
+    25 asignar_avion_slot_pista[AV2,P1,S1]
+                    *              0             0             1 
+    26 asignar_avion_slot_pista[AV2,P1,S2]
+                    *              0             0             1 
+    27 asignar_avion_slot_pista[AV2,P1,S3]
+                    *              0             0             1 
+    28 asignar_avion_slot_pista[AV2,P1,S4]
+                    *              0             0             1 
+    29 asignar_avion_slot_pista[AV2,P1,S5]
+                    *              0             0             1 
+    30 asignar_avion_slot_pista[AV2,P1,S6]
+                    *              0             0             1 
+    31 asignar_avion_slot_pista[AV2,P2,S1]
+                    *              0             0             1 
+    32 asignar_avion_slot_pista[AV2,P2,S2]
+                    *              0             0             1 
+    33 asignar_avion_slot_pista[AV2,P2,S3]
+                    *              0             0             1 
+    34 asignar_avion_slot_pista[AV2,P2,S4]
+                    *              0             0             1 
+    35 asignar_avion_slot_pista[AV2,P2,S5]
+                    *              0             0             1 
+    36 asignar_avion_slot_pista[AV2,P2,S6]
+                    *              0             0             1 
+    37 asignar_avion_slot_pista[AV2,P3,S1]
+                    *              0             0             1 
+    38 asignar_avion_slot_pista[AV2,P3,S2]
+                    *              0             0             1 
+    39 asignar_avion_slot_pista[AV2,P3,S3]
+                    *              0             0             1 
+    40 asignar_avion_slot_pista[AV2,P3,S4]
+                    *              0             0             1 
+    41 asignar_avion_slot_pista[AV2,P3,S5]
+                    *              0             0             1 
+    42 asignar_avion_slot_pista[AV2,P3,S6]
+                    *              0             0             1 
+    43 asignar_avion_slot_pista[AV2,P4,S1]
+                    *              1             0             1 
+    44 asignar_avion_slot_pista[AV2,P4,S2]
+                    *              0             0             1 
+    45 asignar_avion_slot_pista[AV2,P4,S3]
+                    *              0             0             1 
+    46 asignar_avion_slot_pista[AV2,P4,S4]
+                    *              0             0             1 
+    47 asignar_avion_slot_pista[AV2,P4,S5]
+                    *              0             0             1 
+    48 asignar_avion_slot_pista[AV2,P4,S6]
+                    *              0             0             1 
+    49 asignar_avion_slot_pista[AV3,P1,S1]
+                    *              0             0             1 
+    50 asignar_avion_slot_pista[AV3,P1,S2]
+                    *              0             0             1 
+    51 asignar_avion_slot_pista[AV3,P1,S3]
+                    *              0             0             1 
+    52 asignar_avion_slot_pista[AV3,P1,S4]
+                    *              0             0             1 
+    53 asignar_avion_slot_pista[AV3,P1,S5]
+                    *              0             0             1 
+    54 asignar_avion_slot_pista[AV3,P1,S6]
+                    *              0             0             1 
+    55 asignar_avion_slot_pista[AV3,P2,S1]
+                    *              0             0             1 
+    56 asignar_avion_slot_pista[AV3,P2,S2]
+                    *              0             0             1 
+    57 asignar_avion_slot_pista[AV3,P2,S3]
+                    *              0             0             1 
+    58 asignar_avion_slot_pista[AV3,P2,S4]
+                    *              1             0             1 
+    59 asignar_avion_slot_pista[AV3,P2,S5]
+                    *              0             0             1 
+    60 asignar_avion_slot_pista[AV3,P2,S6]
+                    *              0             0             1 
+    61 asignar_avion_slot_pista[AV3,P3,S1]
+                    *              0             0             1 
+    62 asignar_avion_slot_pista[AV3,P3,S2]
+                    *              0             0             1 
+    63 asignar_avion_slot_pista[AV3,P3,S3]
+                    *              0             0             1 
+    64 asignar_avion_slot_pista[AV3,P3,S4]
+                    *              0             0             1 
+    65 asignar_avion_slot_pista[AV3,P3,S5]
+                    *              0             0             1 
+    66 asignar_avion_slot_pista[AV3,P3,S6]
+                    *              0             0             1 
+    67 asignar_avion_slot_pista[AV3,P4,S1]
+                    *              0             0             1 
+    68 asignar_avion_slot_pista[AV3,P4,S2]
+                    *              0             0             1 
+    69 asignar_avion_slot_pista[AV3,P4,S3]
+                    *              0             0             1 
+    70 asignar_avion_slot_pista[AV3,P4,S4]
+                    *              0             0             1 
+    71 asignar_avion_slot_pista[AV3,P4,S5]
+                    *              0             0             1 
+    72 asignar_avion_slot_pista[AV3,P4,S6]
+                    *              0             0             1 
+    73 asignar_avion_slot_pista[AV4,P1,S1]
+                    *              0             0             1 
+    74 asignar_avion_slot_pista[AV4,P1,S2]
+                    *              0             0             1 
+    75 asignar_avion_slot_pista[AV4,P1,S3]
+                    *              0             0             1 
+    76 asignar_avion_slot_pista[AV4,P1,S4]
+                    *              0             0             1 
+    77 asignar_avion_slot_pista[AV4,P1,S5]
+                    *              1             0             1 
+    78 asignar_avion_slot_pista[AV4,P1,S6]
+                    *              0             0             1 
+    79 asignar_avion_slot_pista[AV4,P2,S1]
+                    *              0             0             1 
+    80 asignar_avion_slot_pista[AV4,P2,S2]
+                    *              0             0             1 
+    81 asignar_avion_slot_pista[AV4,P2,S3]
+                    *              0             0             1 
+    82 asignar_avion_slot_pista[AV4,P2,S4]
+                    *              0             0             1 
+    83 asignar_avion_slot_pista[AV4,P2,S5]
+                    *              0             0             1 
+    84 asignar_avion_slot_pista[AV4,P2,S6]
+                    *              0             0             1 
+    85 asignar_avion_slot_pista[AV4,P3,S1]
+                    *              0             0             1 
+    86 asignar_avion_slot_pista[AV4,P3,S2]
+                    *              0             0             1 
+    87 asignar_avion_slot_pista[AV4,P3,S3]
+                    *              0             0             1 
+    88 asignar_avion_slot_pista[AV4,P3,S4]
+                    *              0             0             1 
+    89 asignar_avion_slot_pista[AV4,P3,S5]
+                    *              0             0             1 
+    90 asignar_avion_slot_pista[AV4,P3,S6]
+                    *              0             0             1 
+    91 asignar_avion_slot_pista[AV4,P4,S1]
+                    *              0             0             1 
+    92 asignar_avion_slot_pista[AV4,P4,S2]
+                    *              0             0             1 
+    93 asignar_avion_slot_pista[AV4,P4,S3]
+                    *              0             0             1 
+    94 asignar_avion_slot_pista[AV4,P4,S4]
+                    *              0             0             1 
+    95 asignar_avion_slot_pista[AV4,P4,S5]
+                    *              0             0             1 
+    96 asignar_avion_slot_pista[AV4,P4,S6]
+                    *              0             0             1 
+    97 asignar_avion_slot_pista[AV5,P1,S1]
+                    *              0             0             1 
+    98 asignar_avion_slot_pista[AV5,P1,S2]
+                    *              0             0             1 
+    99 asignar_avion_slot_pista[AV5,P1,S3]
+                    *              0             0             1 
+   100 asignar_avion_slot_pista[AV5,P1,S4]
+                    *              0             0             1 
+   101 asignar_avion_slot_pista[AV5,P1,S5]
+                    *              0             0             1 
+   102 asignar_avion_slot_pista[AV5,P1,S6]
+                    *              0             0             1 
+   103 asignar_avion_slot_pista[AV5,P2,S1]
+                    *              0             0             1 
+   104 asignar_avion_slot_pista[AV5,P2,S2]
+                    *              0             0             1 
+   105 asignar_avion_slot_pista[AV5,P2,S3]
+                    *              0             0             1 
+   106 asignar_avion_slot_pista[AV5,P2,S4]
+                    *              0             0             1 
+   107 asignar_avion_slot_pista[AV5,P2,S5]
+                    *              0             0             1 
+   108 asignar_avion_slot_pista[AV5,P2,S6]
+                    *              0             0             1 
+   109 asignar_avion_slot_pista[AV5,P3,S1]
+                    *              0             0             1 
+   110 asignar_avion_slot_pista[AV5,P3,S2]
+                    *              0             0             1 
+   111 asignar_avion_slot_pista[AV5,P3,S3]
+                    *              0             0             1 
+   112 asignar_avion_slot_pista[AV5,P3,S4]
+                    *              0             0             1 
+   113 asignar_avion_slot_pista[AV5,P3,S5]
+                    *              0             0             1 
+   114 asignar_avion_slot_pista[AV5,P3,S6]
+                    *              0             0             1 
+   115 asignar_avion_slot_pista[AV5,P4,S1]
+                    *              0             0             1 
+   116 asignar_avion_slot_pista[AV5,P4,S2]
+                    *              0             0             1 
+   117 asignar_avion_slot_pista[AV5,P4,S3]
+                    *              0             0             1 
+   118 asignar_avion_slot_pista[AV5,P4,S4]
+                    *              0             0             1 
+   119 asignar_avion_slot_pista[AV5,P4,S5]
+                    *              0             0             1 
+   120 asignar_avion_slot_pista[AV5,P4,S6]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
